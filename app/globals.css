@@ -123,3 +123,74 @@
     @apply bg-background text-foreground;
   }
 }
+/* Portfolio custom styling */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #0f172a;
+  color: #f1f5f9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #22c55e;
+  color: #0f172a;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+/* Final portfolio polish */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Smooth scrolling and cleaner scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #22c55e;
+}
+
+/* Better focus visibility */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #22c55e;
+  outline-offset: 3px;
+}
+
+/* Prevent images from overflowing */
+img {
+  max-width: 100%;
+}

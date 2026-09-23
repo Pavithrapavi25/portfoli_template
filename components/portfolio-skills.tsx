@@ -1,28 +1,66 @@
 interface SkillsData {
-  skills: Array<{
-    category: string
-    items: string[]
-  }>
+  skills: {
+    [category: string]: string[]
+  }
 }
 
 export default function PortfolioSkills({ data }: { data: SkillsData }) {
-  return (
-    <section className="py-20 md:py-32 px-6 md:px-12 bg-slate-800">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-slate-50 mb-16">Skills & Technologies</h2>
+  const skillGroups = Object.entries(data.skills)
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-          {data.skills.map((skillGroup, idx) => (
-            <div key={idx}>
-              <h3 className="text-xl font-bold text-emerald-400 mb-6">{skillGroup.category}</h3>
-              <ul className="space-y-3">
-                {skillGroup.items.map((skill, sidx) => (
-                  <li key={sidx} className="text-slate-300 flex items-center">
-                    <span className="w-2 h-2 bg-emerald-400 rounded-full mr-3" />
+  return (
+    <section
+      id="skills"
+      className="relative overflow-hidden bg-slate-950 px-6 py-20 md:px-12 md:py-28"
+    >
+      {/* Background glow */}
+      <div className="pointer-events-none absolute -right-40 top-20 h-96 w-96 rounded-full bg-emerald-500/5 blur-3xl" />
+
+      <div className="relative mx-auto max-w-7xl">
+        {/* Heading */}
+        <div className="mb-14">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-emerald-400">
+            My toolkit
+          </p>
+
+          <h2 className="text-4xl font-bold tracking-tight text-white md:text-5xl">
+            Skills & Technologies
+          </h2>
+
+          <div className="mt-5 h-1 w-16 rounded-full bg-emerald-400" />
+
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-400">
+            Technologies and tools I use to build web applications,
+            data-driven solutions, and AI-powered projects.
+          </p>
+        </div>
+
+        {/* Skill cards */}
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {skillGroups.map(([category, items]) => (
+            <div
+              key={category}
+              className="group rounded-2xl border border-slate-800 bg-slate-900/70 p-7 transition duration-300 hover:-translate-y-1 hover:border-emerald-400/40 hover:shadow-xl hover:shadow-emerald-500/5"
+            >
+              {/* Category */}
+              <div className="mb-6 flex items-center gap-3">
+                <div className="h-2 w-2 rounded-full bg-emerald-400 shadow-lg shadow-emerald-400/40" />
+
+                <h3 className="text-lg font-bold text-white">
+                  {category}
+                </h3>
+              </div>
+
+              {/* Skills */}
+              <div className="flex flex-wrap gap-2">
+                {items.map((skill, index) => (
+                  <span
+                    key={index}
+                    className="rounded-lg border border-slate-700 bg-slate-950 px-3 py-2 text-sm font-medium text-slate-300 transition hover:border-emerald-400/50 hover:text-emerald-400"
+                  >
                     {skill}
-                  </li>
+                  </span>
                 ))}
-              </ul>
+              </div>
             </div>
           ))}
         </div>

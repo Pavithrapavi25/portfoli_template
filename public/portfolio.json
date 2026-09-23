@@ -1,161 +1,403 @@
+
 {
   "personal": {
     "name": "P N Pavithra",
-    "title": "Aspiring Software Engineer | Web Developer | AI Enthusiast",
-    "tagline": "Building scalable web applications and exploring AI-driven solutions with a passion for problem-solving and innovation.",
-    "bio": "I am a passionate and detail-oriented engineering student with strong foundations in programming, web development, and data analysis. I enjoy building real-world applications and continuously improving my skills in AI, machine learning, and modern web technologies.",
-    "currentRole": "Student (B.E)",
-    "currentRoleDescription": "Pursuing Bachelor of Engineering while building projects in web development, AI, and data analysis. Actively learning and applying skills through internships, hackathons, and personal projects.",
+    "title": "Software Engineer | Web Developer | Data & AI Enthusiast",
+    "tagline": "Building practical software solutions with full-stack development, AI, and data-driven technologies.",
+    "bio": "I am a B.E. graduate and Software Developer fresher with hands-on experience building full-stack web applications, AI-powered solutions, and data-driven projects. I enjoy turning real-world problems into practical software solutions and continuously improving my technical skills.",
+    "currentRole": "B.E. Graduate | Software Developer Fresher",
+    "currentRoleDescription": "B.E. graduate with practical experience through internships, real-world projects, hackathons, and continuous Data Science learning. Currently seeking opportunities in Software Development, Full-Stack Development, AI/ML, and Data Analytics.",
     "email": "pnpavithrapavi@gmail.com",
-    "location": "Bangalore, Karnataka, India"
+    "location": "Andhra Pradesh, India"
   },
-  "about": {
-    "title": "About",
-    "sections": [
-      "I am an aspiring software engineer with a strong interest in web development, artificial intelligence, and data-driven solutions. I enjoy building applications that solve real-world problems.",
-      "With hands-on experience in Python, JavaScript, and frontend technologies, I have developed multiple projects including e-commerce platforms and learning systems.",
-      "I am continuously learning through internships, certifications, and projects, and I am passionate about improving my technical and problem-solving skills."
-    ]
-  },
+
+  "about": [
+    "I am a B.E. graduate and Software Developer fresher with hands-on experience in full-stack development, artificial intelligence, data science, and web development.",
+    "I enjoy building practical applications that solve real-world problems. My projects include a Finance & Loan Management System used by a real client, PassportReady, GovNavigator, AI Language Learning Companion, Ransomware Detection, Telecom Churn Analysis, and several web applications.",
+    "My technical skills include Python, JavaScript, React.js, FastAPI, Node.js, SQL, PostgreSQL, REST APIs, Git, GitHub, Docker, Power BI, Excel, Pandas, NumPy, AI, NLP, and data visualization.",
+    "I am currently pursuing a Data Science course at SkyllX and looking for opportunities as a Software Developer, Full-Stack Developer, or in Data and AI-related roles."
+  ],
+
   "experience": [
     {
-      "period": "2025",
-      "title": "Python Programming Intern",
-      "company": "Internpe",
-      "description": "Worked on Python programming concepts and applied them in practical projects to strengthen problem-solving and coding skills.",
-      "skills": ["Python", "Problem Solving"]
+      "year": "2026",
+      "role": "Data Science Intern",
+      "company": "Internage",
+      "description": "Completed a Data Science internship with hands-on experience in data analysis, machine learning, computer vision, data visualization, and web development. Worked on YOLOv8n Object Detection, Telecom Customer Churn Analysis, Internship Portal, Sales Intelligence, and Portfolio projects.",
+      "skills": [
+        "Python",
+        "Data Science",
+        "Data Analysis",
+        "Machine Learning",
+        "Computer Vision",
+        "YOLO",
+        "Data Visualization",
+        "Pandas",
+        "NumPy",
+        "SQL"
+      ]
     },
     {
-      "period": "2025",
-      "title": "Artificial Intelligence Intern",
+      "year": "2025",
+      "role": "Full Stack Development Intern",
+      "company": "CODTECH IT SOLUTIONS",
+      "description": "Completed a Full Stack Development internship with hands-on project development. Built an E-commerce PWA, To-Do List Application, and Online Learning Platform using modern web technologies.",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Web Development",
+        "Responsive Web Design",
+        "Progressive Web Apps",
+        "Service Workers",
+        "Local Storage",
+        "DOM Manipulation"
+      ]
+    },
+    {
+      "year": "2024",
+      "role": "Python Programming Intern",
+      "company": "Internpe",
+      "description": "Completed a Python Programming internship focused on structured learning, coding practice, programming fundamentals, and problem-solving through coding exercises and training sessions.",
+      "skills": [
+        "Python",
+        "Programming Fundamentals",
+        "Problem Solving"
+      ]
+    },
+    {
+      "year": "2024",
+      "role": "Artificial Intelligence Intern",
       "company": "SkillDzire",
-      "description": "Gained exposure to AI concepts and implemented basic machine learning and AI-based solutions.",
-      "skills": ["Artificial Intelligence", "Machine Learning"]
+      "description": "Completed a classroom-based Artificial Intelligence internship program with structured learning and exposure to fundamental AI and machine learning concepts.",
+      "skills": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "AI Fundamentals"
+      ]
     }
   ],
+
   "projects": [
     {
       "id": 1,
-      "title": "E-commerce Website",
-      "description": "A responsive shopping web application with authentication and cart features.",
-      "longDescription": "Developed an enhanced e-commerce web application using HTML, CSS, and JavaScript. Implemented user authentication, product search, filtering, sorting, and a dynamic shopping cart system with automatic price calculation.",
-      "image": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?w=500",
-      "tags": ["Web Development", "JavaScript", "E-commerce"],
-      "link": "",
+      "title": "Finance & Loan Management System",
+      "description": "Real-world finance and loan management system used by a client for daily loan operations.",
+      "longDescription": "Developed and deployed a real-world Finance & Loan Management System used by a client for daily loan management. The system manages customers, loans, payments, outstanding balances, due dates, reminders, dashboards, reports, loan closure, and CSV exports.",
+      "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=500",
+      "tags": [
+        "Python",
+        "FastAPI",
+        "React.js",
+        "PostgreSQL",
+        "SQL",
+        "REST APIs"
+      ],
+      "link": "https://github.com/Pavithrapavi25/finance-loan-management",
+      "liveLink": "https://finance-loan-management-1.onrender.com",
       "featured": true
     },
     {
       "id": 2,
-      "title": "Online Learning Platform",
-      "description": "Interactive platform with video lessons and quizzes.",
-      "longDescription": "Built an online learning platform with video lessons, quizzes, and progress tracking. Implemented a responsive video player, login system, and dynamic progress tracking.",
-      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-      "tags": ["EdTech", "Web App", "JavaScript"],
-      "link": "",
+      "title": "PassportReady",
+      "description": "AI-powered passport readiness assistant and application preparation prototype.",
+      "longDescription": "Built and deployed a prototype that helps users prepare for passport applications through step-by-step guidance, address details, document checklists, readiness assessment, and an AI assistant.",
+      "image": "https://images.unsplash.com/photo-1521292270410-a8c4d716d518?w=500",
+      "tags": [
+        "React.js",
+        "JavaScript",
+        "Python",
+        "FastAPI",
+        "AI",
+        "REST APIs"
+      ],
+      "link": "https://github.com/Pavithrapavi25/passportready",
+      "liveLink": "https://passportready-web.onrender.com",
       "featured": true
     },
     {
       "id": 3,
-      "title": "Portfolio Website",
-      "description": "Personal portfolio with animations and modern UI.",
-      "longDescription": "Designed and developed a portfolio website with smooth animations, transitions, and interactive UI elements using CSS and JavaScript.",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500",
-      "tags": ["Portfolio", "UI/UX", "Frontend"],
-      "link": "",
-      "featured": false
+      "title": "GovNavigator",
+      "description": "AI-powered government services navigation and guidance application.",
+      "longDescription": "Developed an AI-powered application that helps users discover relevant government services and understand eligibility and application guidance. Integrated Google Gemini API and MCP with a web application and backend APIs.",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500",
+      "tags": [
+        "React.js",
+        "Python",
+        "FastAPI",
+        "Google Gemini API",
+        "MCP",
+        "AI",
+        "SQL"
+      ],
+      "link": "https://github.com/Pavithrapavi25/govnavigator",
+      "liveLink": "https://govnavigator.onrender.com",
+      "featured": true
     },
     {
       "id": 4,
-      "title": "E-commerce PWA",
-      "description": "Offline-enabled Progressive Web App for shopping.",
-      "longDescription": "Developed an offline-ready e-commerce PWA using service workers for caching, push notifications, and persistent cart storage.",
-      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500",
-      "tags": ["PWA", "Web", "Service Workers"],
-      "link": "",
-      "featured": false
+      "title": "YOLOv8n Object Detection",
+      "description": "Computer vision application for detecting and locating objects in images.",
+      "longDescription": "Developed a computer vision project using the YOLOv8n pretrained object detection model to identify and locate multiple objects in images using Python, Ultralytics YOLO, and OpenCV.",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=500",
+      "tags": [
+        "Python",
+        "YOLOv8",
+        "Computer Vision",
+        "OpenCV",
+        "Machine Learning"
+      ],
+      "link": "https://github.com/Pavithrapavi25/YOLOv8n-Object-Detection",
+      "liveLink": "",
+      "featured": true
     },
     {
       "id": 5,
-      "title": "To-Do List Application",
-      "description": "Task manager with reminders and dark mode.",
-      "longDescription": "Built an advanced to-do list app with task management, priority levels, reminders, dark mode, and local storage support.",
-      "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500",
-      "tags": ["Productivity", "JavaScript", "UI"],
-      "link": "",
-      "featured": false
+      "title": "Telecom Customer Churn Analysis",
+      "description": "Data analysis project focused on understanding customer churn behavior.",
+      "longDescription": "Analyzed telecom customer data to explore customer behavior, identify factors associated with churn, and generate meaningful data-driven insights through analysis and visualization.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500",
+      "tags": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Data Analysis",
+        "Data Visualization"
+      ],
+      "link": "https://github.com/Pavithrapavi25/Telecom-churn-analysis",
+      "liveLink": "",
+      "featured": true
     },
     {
       "id": 6,
-      "title": "AI Language Learning Companion",
-      "description": "AI-based multilingual translation tool.",
-      "longDescription": "Developed an AI-powered translation tool supporting Telugu, Kannada, and English using NLP techniques for improved accuracy and usability.",
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500",
-      "tags": ["AI", "NLP", "Translation"],
-      "link": "",
+      "title": "Sales Intelligence",
+      "description": "Data analytics project for exploring sales performance and business insights.",
+      "longDescription": "Worked on a Sales Intelligence project focused on analyzing sales data, identifying trends, understanding performance, and generating meaningful business insights.",
+      "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=500",
+      "tags": [
+        "Python",
+        "Data Analysis",
+        "Data Visualization",
+        "Business Analytics"
+      ],
+      "link": "https://github.com/Pavithrapavi25/Dashboard_creation",
+      "liveLink": "",
+      "featured": false
+    },
+    {
+      "id": 7,
+      "title": "Ransomware Detection",
+      "description": "Machine learning application for ransomware detection using image-based malware analysis.",
+      "longDescription": "Developed a ransomware detection application using Python, Flask, SQL, and a CNN-based machine learning approach. The project includes user authentication, prediction functionality, result display, training workflow, and sample malware images.",
+      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=500",
+      "tags": [
+        "Python",
+        "Flask",
+        "CNN",
+        "Machine Learning",
+        "Cybersecurity",
+        "SQL"
+      ],
+      "link": "https://github.com/Pavithrapavi25/Ransomware-Detection",
+      "liveLink": "",
       "featured": true
+    },
+    {
+      "id": 8,
+      "title": "AI Language Learning Companion",
+      "description": "AI and NLP-based multilingual language learning and translation application.",
+      "longDescription": "Developed an AI-based language learning and translation application supporting Telugu, Kannada, and English. Applied NLP concepts and language processing techniques to provide multilingual translation functionality.",
+      "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=500",
+      "tags": [
+        "Python",
+        "AI",
+        "NLP",
+        "Machine Learning",
+        "Translation"
+      ],
+      "link": "https://github.com/Pavithrapavi25/-AI-Language-Learning-Companion",
+      "liveLink": "",
+      "featured": true
+    },
+    {
+      "id": 9,
+      "title": "Internship Portal",
+      "description": "Responsive web application for exploring and managing internship opportunities.",
+      "longDescription": "Built a responsive internship portal that allows students to explore internship opportunities, search and filter opportunities by domain, view internship details, and submit applications.",
+      "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=500",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Web Development",
+        "Responsive Design"
+      ],
+      "link": "https://github.com/Pavithrapavi25/Internship-portal",
+      "liveLink": "",
+      "featured": false
+    },
+    {
+      "id": 10,
+      "title": "E-commerce PWA",
+      "description": "Progressive Web App for shopping with offline capabilities.",
+      "longDescription": "Developed an E-commerce Progressive Web App with responsive design, service workers, caching, notifications, persistent cart functionality, and Local Storage.",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500",
+      "tags": [
+        "JavaScript",
+        "PWA",
+        "Service Workers",
+        "Cache API",
+        "Local Storage"
+      ],
+      "link": "https://github.com/Pavithrapavi25/ecommerce-pwa",
+      "liveLink": "",
+      "featured": false
+    },
+    {
+      "id": 11,
+      "title": "Online Learning Platform",
+      "description": "Interactive learning platform with courses, video lessons, quizzes, and progress tracking.",
+      "longDescription": "Built an online learning platform with video lessons, quizzes, progress tracking, responsive design, user login, quiz submission, and Local Storage functionality.",
+      "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ],
+      "link": "https://github.com/Pavithrapavi25/online-learning-platform",
+      "liveLink": "",
+      "featured": false
+    },
+    {
+      "id": 12,
+      "title": "To-Do List Application",
+      "description": "Task management application with priorities, reminders, search, filters, and dark mode.",
+      "longDescription": "Built a task management application with create, edit, and delete functionality, priorities, categories, reminders using the Notification API, search and filtering, dark mode, and Local Storage.",
+      "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Notification API",
+        "Local Storage"
+      ],
+      "link": "https://github.com/Pavithrapavi25/Todo-list",
+      "liveLink": "",
+      "featured": false
+    },
+    {
+      "id": 13,
+      "title": "Portfolio Website",
+      "description": "Personal portfolio website showcasing projects, skills, and experience.",
+      "longDescription": "Designed and developed a responsive portfolio website using HTML, CSS, and JavaScript with animations, transitions, CSS keyframes, and interactive UI elements to showcase technical skills and projects.",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Responsive Design",
+        "UI"
+      ],
+      "link": "https://github.com/Pavithrapavi25/portfoli_template",
+      "liveLink": "",
+      "featured": false
     }
   ],
-  "skills": [
+
+  "skills": {
+    "Programming Languages": [
+      "Python",
+      "JavaScript",
+      "SQL",
+      "C"
+    ],
+    "Frontend Development": [
+      "HTML",
+      "CSS",
+      "React.js",
+      "Responsive Design",
+      "Bootstrap",
+      "Flexbox",
+      "Grid",
+      "DOM Manipulation",
+      "Local Storage",
+      "Progressive Web Apps"
+    ],
+    "Backend Development": [
+      "FastAPI",
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "Authentication"
+    ],
+    "Data Science & AI": [
+      "Data Science",
+      "Data Analysis",
+      "Machine Learning",
+      "Artificial Intelligence",
+      "NLP",
+      "Computer Vision",
+      "Pandas",
+      "NumPy",
+      "Data Visualization"
+    ],
+    "Databases & Tools": [
+      "PostgreSQL",
+      "MongoDB",
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Docker",
+      "Power BI",
+      "Excel"
+    ],
+    "Soft Skills": [
+      "Problem Solving",
+      "Analytical Thinking",
+      "Communication",
+      "Team Collaboration",
+      "Time Management"
+    ]
+  },
+
+  "hackathons": [
     {
-      "category": "Programming Languages",
-      "items": ["Python", "C", "JavaScript"]
+      "year": "2026",
+      "name": "Build What Moves India",
+      "organization": "Vinay Mayya",
+      "project": "PassportReady",
+      "description": "Participated in a hackathon focused on building practical technology solutions. Developed PassportReady, a passport readiness assistant prototype designed to guide users through passport preparation."
     },
     {
-      "category": "Web Development",
-      "items": ["HTML", "CSS", "JavaScript"]
-    },
-    {
-      "category": "Data Skills",
-      "items": ["Data Cleaning", "KPI Analysis", "Dashboards", "Data Visualization"]
-    },
-    {
-      "category": "Tools & Technologies",
-      "items": ["Git", "GitHub", "VS Code", "Power BI", "Excel", "Tableau", "SQL"]
-    },
-    {
-      "category": "Soft Skills",
-      "items": ["Analytical Thinking", "Communication", "Team Collaboration", "Problem Solving", "Time Management"]
+      "year": "2025",
+      "name": "NammaSuraksha",
+      "organization": "Presidency College, Rajankunte, Bangalore",
+      "project": "Emergency Response Integration Website",
+      "description": "Developed a website concept that brings police, fire engine, and ambulance emergency services together through a unified emergency-response platform."
     }
   ],
+
   "education": [
     {
-      "degree": "Bachelor of Engineering (B.E)",
+      "degree": "B.E.",
       "institution": "SJC Institute of Technology",
-      "period": "2022–2026"
+      "year": "2022-2026",
+      "field": "Artificial Intelligence & Data Science",
+      "cgpa": "8.83"
     },
     {
-      "degree": "Intermediate",
-      "institution": "Narayana Junior College",
-      "period": "2020–2022"
-    },
-    {
-      "degree": "SSC",
-      "institution": "DVDBS Chinmaya Vidyalaya",
-      "period": "2020"
+      "degree": "Data Science",
+      "institution": "SkyllX",
+      "year": "2026-Present",
+      "field": "Practical learning in Python, SQL, data analysis, machine learning, data visualization"
     }
   ],
-  "certifications": [
-    {
-      "name": "Python Basics",
-      "issuer": "Infosys Springboard"
-    },
-    {
-      "name": "Development & Testing",
-      "issuer": "Infosys Springboard"
-    },
-    {
-      "name": "Introduction to AI",
-      "issuer": "Simplilearn"
-    },
-    {
-      "name": "Data Structures & Algorithms",
-      "issuer": "Mindluster"
-    },
-    {
-      "name": "Interpersonal Skills",
-      "issuer": "Infosys Springboard"
-    }
-  ],
+
+  "certifications": [],
+
   "social": [
     {
       "name": "LinkedIn",

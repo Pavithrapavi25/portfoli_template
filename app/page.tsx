@@ -3,6 +3,7 @@ import PortfolioAbout from '@/components/portfolio-about'
 import PortfolioExperience from '@/components/portfolio-experience'
 import PortfolioProjects from '@/components/portfolio-projects'
 import PortfolioSkills from '@/components/portfolio-skills'
+import PortfolioHackathons from '@/components/portfolio-hackathons'
 import PortfolioFooter from '@/components/portfolio-footer'
 
 interface PortfolioData {
@@ -41,6 +42,13 @@ interface PortfolioData {
     category: string
     items: string[]
   }>
+  hackathons: Array<{
+  year: string
+  name: string
+  organization: string
+  project: string
+  description: string
+}>
   social: Array<{
     name: string
     url: string
@@ -76,6 +84,7 @@ export default async function Home() {
       <PortfolioExperience data={portfolioData} />
       <PortfolioProjects data={portfolioData} />
       <PortfolioSkills data={portfolioData} />
+      <PortfolioHackathons data={portfolioData} />
       <PortfolioFooter data={portfolioData} />
     </main>
   )
